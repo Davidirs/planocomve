@@ -1,0 +1,1 @@
+import{b as t}from"./Planes.Bq7-ZgX8.js";import"./jsx-runtime.D_zvdyIk.js";import"./runtime.BEYG9Apf.js";import"./index.BVOCwoKb.js";const a={...t,propertiesToHash:["src"],async transform(r,o){return{data:r,format:o.format}}};var i=a;export{i as default};
