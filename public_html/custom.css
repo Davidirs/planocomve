@@ -105,3 +105,28 @@ body {
 .enhanced-gradient {
   background: linear-gradient(135deg, #152FA3 0%, #1a3bc0 50%, #142674 100%) !important;
 }
+
+/* 7. Navigation Enhancements */
+nav ul li a {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--color-secondary);
+  transition: width 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: var(--color-secondary);
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}

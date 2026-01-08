@@ -7,19 +7,18 @@
       <link rel="icon" type="image/svg+xml" href="/iso_logo.png">
       <meta name="generator" content="Astro v5.12.9">
       <title>Plano Telecom</title>
-      <meta name="description"
-            content="Descripción breve y atractiva de los servicios de Plano Telecom. Expertos en conectividad y soluciones de red.">
+      <meta name="description" content="Descubre la libertad de navegar sin interrupciones con la mejor Fibra Óptica.">
 
       <meta property="og:type" content="website">
-      <meta property="og:url" content="https://plano-telecom.com.ve">
+      <meta property="og:url" content="https://plano.com.ve/">
       <meta property="og:title" content="Plano Telecom | Tu Conexión Ideal">
-      <meta property="og:description"
-            content="Ofrecemos las mejores soluciones en telecomunicaciones. Descubre nuestros planes y cobertura aquí.">
+      <meta property="og:description" content="¡Conéctate sin límites con la fibra óptica más rápida y confiable!">
+      <meta property="og:image" content="https://plano.com.ve/logo/Principal-Logo-Plano-Telecom.png">
       <meta property="twitter:card" content="summary_large_image">
-      <meta property="twitter:url" content="https://plano-telecom.com.ve">
+      <meta property="twitter:url" content="https://plano.com.ve/">
       <meta property="twitter:title" content="Plano Telecom | Tu Conexión Ideal">
-      <meta property="twitter:description"
-            content="Ofrecemos las mejores soluciones en telecomunicaciones. Descubre nuestros planes y cobertura aquí.">
+      <meta property="twitter:description" content="¡Conéctate sin límites con la fibra óptica más rápida y confiable!">
+      <meta property="twitter:image" content="https://plano.com.ve/logo/Principal-Logo-Plano-Telecom.png">
       <link rel="stylesheet" href="/_astro/index.BAlp9r8k.css">
       <style>
             .custom-gradient[data-astro-cid-jdtmm4l4] {
@@ -92,7 +91,7 @@
             }
       </style>
       <link rel="stylesheet" href="/_astro/Cobertura.CIGW-MKW.css">
-      <link rel="stylesheet" href="/custom.css">
+      <link rel="stylesheet" href="/custom.css?v=1">
 </head>
 
 <body data-astro-cid-sckkx6r4>
@@ -100,10 +99,11 @@
                   decoding="async" fetchpriority="auto" width="1440" height="4198"
                   class="absolute h-full w-full z-[-1]">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                  <nav class="bg-white w-full sticky-header glass-nav rounded-2xl mt-4 z-50">
-                        <div class="flex justify-between items-center p-4"> <!-- logo -->
-                              <div> <img src="/logo/Principal-Logo-Plano-Telecom.png" alt="plano logo"
-                                          class="h-20 md:h-20 w-auto"> </div>
+                  <nav
+                        class="bg-white w-full sticky-header glass-nav rounded-2xl mt-4 z-50 transition-all duration-300 ease-in-out py-4">
+                        <div class="flex justify-between items-center p-2"> <!-- logo -->
+                              <div> <img id="main-logo" src="/logo/Principal-Logo-Plano-Telecom.png" alt="plano logo"
+                                          class="h-20 w-auto transition-all duration-300 ease-in-out"> </div>
                               <!-- Desktop nav items, hidden on mobile -->
 
                               <div class="hidden md:block color-principal font-semibold">
@@ -341,36 +341,50 @@
             </div>
             <div class="bg-gradient-to-b from-[#152FA3] to-[#08123D]">
                   <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-white py-8">
-                        <div class="flex justify-between items-center mb-2">
-                              <div>
-                                    <div class="flex gap-1">
+                        <div class="flex flex-col md:flex-row justify-between items-center mb-8 gap-6 md:gap-0">
+                              <div class="flex flex-col gap-2 items-center md:items-start">
+                                    <p class="font-light text-sm opacity-80">Escríbenos a nuestro Whatsapp</p>
+                                    <a href="https://wa.me/584125255778?text=" target="_blank"
+                                          class="flex items-center gap-3 hover:opacity-90 transition-opacity group">
                                           <div
-                                                class="w-6 h-6 bg-[#14B41C] rounded-full flex items-center justify-center aspect-square">
-                                                <img src="/whatsapp-icon.svg" alt="pointer" height="12" width="12">
-                                          </div> <a href="https://wa.me/584125255778?text=" target="_blank"
-                                                style="text-decoration: none">
-                                                <p>+58 412 5255778 <span class="font-light">Escríbenos a nuestro
-                                                            Whatsapp</span></p>
-                                          </a>
-                                    </div>
+                                                class="w-8 h-8 bg-[#14B41C] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                                                <img src="/whatsapp-icon.svg" alt="whatsapp" class="w-4 h-4">
+                                          </div>
+                                          <p class="font-medium text-lg tracking-wide">+58 412 5255778</p>
+                                    </a>
                               </div>
-                              <div> <a href="https://barinas.planotelecom.net/cliente/pagos/" target="_blank"
-                                          class="border-2 rounded-full px-4 py-1">Pagos el línea</a> </div>
-                        </div>
-                        <div class="flex flex-col md:flex-row justify-between items-start">
+
                               <div>
-                                    <p class="font-semibold">Dirección Física</p>
-                                    <p class="font-light">
-                                          CC Walros, Av Alberto Arvelo Torrealba, Alto Barinas, Local P1-05 Barinas,
-                                          Estado Barinas
+                                    <a href="https://barinas.planotelecom.net/cliente/pagos/" target="_blank"
+                                          class="border-2 border-white/30 bg-white/5 hover:bg-white/10 rounded-full px-4 py-2 transition-all hover:scale-105 font-medium">
+                                          Pagos en línea
+                                    </a>
+                              </div>
+                        </div>
+
+                        <div class="h-px w-full bg-white/10 mb-8"></div>
+
+                        <div
+                              class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 md:gap-0">
+                              <div class="text-center md:text-left w-full md:w-auto">
+                                    <p class="font-semibold mb-1 text-lg">Dirección Física</p>
+                                    <p class="font-light text-white/80 leading-relaxed max-w-sm mx-auto md:mx-0">
+                                          CC Walros, Av Alberto Arvelo Torrealba, Alto Barinas,<br>
+                                          Local P1-05 Barinas, Estado Barinas
                                     </p>
                               </div>
-                              <div class="flex gap-2 items-center"> <!-- icons --> <a
-                                          href="https://www.instagram.com/planotelecom/" target="_blank"> <img
-                                                src="/_astro/instagram-white.r5tToB2__Z16Po59.svg" alt="icon Instagram"
-                                                loading="lazy" decoding="async" fetchpriority="auto" width="18"
-                                                height="18"> </a>
-                                    <p>contacto@plano.com.ve</p>
+
+                              <div class="flex flex-col items-end md:items-end gap-2 w-full md:w-auto">
+                                    <div
+                                          class="flex gap-2 items-center opacity-80 hover:opacity-100 transition-opacity">
+                                          <a href="https://www.instagram.com/planotelecom/" target="_blank"
+                                                class="hover:scale-110 transition-transform">
+                                                <img src="/_astro/instagram-white.r5tToB2__Z16Po59.svg" alt="Instagram"
+                                                      width="20" height="20">
+                                          </a>
+                                          <a href="mailto:contacto@plano.com.ve"
+                                                class="hover:underline">contacto@plano.com.ve</a>
+                                    </div>
                               </div>
                         </div>
                         <div class="mt-8 text-center">
@@ -379,6 +393,19 @@
                   </div>
             </div>
       </div>
+      <script>
+            document.addEventListener('scroll', () => {
+                  const nav = document.querySelector('nav');
+                  // Logo resize removed as per user request
+                  if (window.scrollY > 50) {
+                        nav.classList.add('py-2', 'shadow-md');
+                        nav.classList.remove('py-4');
+                  } else {
+                        nav.classList.add('py-4');
+                        nav.classList.remove('py-2', 'shadow-md');
+                  }
+            });
+      </script>
 </body>
 
 </html>
